@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+//     $("#getnumber").click(function () {
+
+// var number1 = parseInt( $("#number1").val());
+// var number2 = parseInt( $("#number2").val());
+// var total = number1 + number2;
+
+// $("#total").val(total);
+// }); 
+
+
+$("#getnumberFirst").click(function () {
+
+    
+
+var number1 = parseInt( $("#number1").val());
+var number2 = parseInt( $("#number2").val());
+var number3 = parseInt( $("#number3").val());
+
+
+
+
+$("#ici").remove();
+
+var total = number1 + (number2 + number3);
+
+$("#total").val(total);
+}); 
+
+
+
+$("#getnumberSecond").click(function () {
+
+var Produit = parseInt( $("#produit").val());
+var Prix = parseInt( $("#prix").val());
+var Quantite = parseInt( $("#quantite").val());
+var PrixTotal = parseInt( $("#prixtotal").val());
+
+$("#ici").remove();
+$
+var total = number1 + (number2 + number3);
+
+$("#total").val(total);
+});  
+
+
+
+});
+
+</script>
+
+
+</head>
+
+
+
+
+<!-- <h1 class="MyTitle" >Titre First! </h1>
+<h1 class="MyTitle" >Titre Last ! </h1>
+
+<h1>TP noté</h1>
+
+<img src="./Images/ristorante-rivalago_vf026YRm.jpg" alt="">
+<img src="./Images/ristorante-rivalago_vf026YRm.jpg" alt=""><br><br><br><br> -->
+
+
+
+
+<!-- <input type="number" id="number1" placeholder="number1">
+
+<input type="number" id="number2" placeholder="number2">
+
+<input type="number" id="total" placeholder="total">
+
+
+<button id="getnumber1" >Valider </button><br><br><br><br><br> -->
+
+
+<input class="chemises" type="text" id="Produit" placeholder="Chemises">
+<input type="number" id="number1" placeholder="prix"><br><br>
+
+<input id="Pantalon" type="text" id="Produit" placeholder="Pantalon">
+<input type="number" id="number2" placeholder="prix"><br><br>
+
+<input id="Veste" type="text" id="Produit" placeholder="Veste">
+<input type="number" id="number3" placeholder="prix"><br><br>
+
+<button id="getnumberFirst" >calculer</button><br><br><br>
+
+Total <input type="number" id="total" placeholder=""><br><br><br>
+<br>
+
+
+<!-- <hr><hr><br><br><br> -->
+
+
+
+
+    <input type="text" id="Produit" placeholder="Produit">
+    <input type="number" id="prix" placeholder="prix">
+    <input type="number" id="quantite" placeholder="quantite">
+    <input type="number" id="prixtotal" placeholder="prixtotal">
+    <br><br>
+
+    <input type="text" id="Produit" placeholder="Produit">
+    <input type="number" id="prix" placeholder="prix">
+    <input type="number" id="quantite" placeholder="quantite">
+    <input type="number" id="prixtotal" placeholder="prixtotal"><br><br>
+    
+    <input type="text" id="Produit" placeholder="Produit">
+    <input type="number" id="prix" placeholder="prix">
+    <input type="number" id="quantite" placeholder="quantite">
+    <input type="number" id="prixtotal" placeholder="prixtotal"><br><br><br>
+    
+    <button id="getnumberSecond" >calculer</button><br><br><br>
+    
+    Total <input type="number" id="total" placeholder="">
+    
+ 
+
+
+
+
+</body>
+</html>
